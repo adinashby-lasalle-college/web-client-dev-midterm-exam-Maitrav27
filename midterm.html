@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Webpage</title>
+    <link rel="stylesheet" href="midter.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Web Development Midterm</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Form</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Table</a></li>
+        </ul>
+    </nav>
+
+    <main>
+         
+        <div class="column">
+            <h2>Web Development Info</h2>
+            <p>This section provides some basic information about web development.</p>
+        </div>
+        <div class="column">
+            <h2>Additional Content</h2>
+            <p>This is additional content for the webpage.</p>
+        </div>
+
+        
+        <form action="#" method="POST">
+            <h2>Registration Form</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="description">Tell us about yourself:</label>
+            <textarea id="description" name="description" required></textarea><br><br>
+
+            <label for="topic">Favorite Topic:</label>
+            <select id="topic" name="topic" required>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </select><br><br>
+
+            <label for="file">Upload a File:</label>
+            <input type="file" id="file" name="file" required><br><br>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+      
+        <section>
+            <h2>Multimedia Section</h2>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br><br>
+            <video controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br><br>
+            <img src="sample.jpg" alt="A descriptive alt text for the sample image" width="400">
+        </section>
+
+         
+        <section>
+            <h2>Items for Sale</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>A detailed description of Product 1.</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>A detailed description of Product 2.</td>
+                        <td>$25</td>
+                    </tr>
+                    <tr>
+                        <td>Product 3</td>
+                        <td>A detailed description of Product 3.</td>
+                        <td>$35</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Best Practices for Web Design</h3>
+            <ul>
+                <li>Use semantic HTML for better accessibility.</li>
+                <li>Ensure responsive design for all devices.</li>
+                <li>Keep a consistent design using external stylesheets.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Project by Your Name - MAITRAV</p>
+    </footer>
+
+</body>
+</html>
